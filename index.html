@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaky Nook | English Conversation Club</title>
+    <meta name="description" content="A cozy community to practice English, meet people, and share stories. Join our weekly speaking meetups and monthly book club.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <div class="logo-icon">SN</div>
+                    Speaky Nook
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#join">Join</a></li>
+                    <li><a href="#book-club">Book Club</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <span class="sparkle sparkle-1">✧</span>
+            <span class="sparkle sparkle-2">✦</span>
+            <h1>Let's build a community to <span class="handwritten">practice English</span>, meet people, and share stories.</h1>
+            <p>A cozy space for intermediate and advanced learners to build confidence, discuss interesting topics, and make friends without the pressure of a traditional classroom.</p>
+            <a href="#agenda" class="btn btn-primary">Get to know this Month's Activities</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2 class="section-title">What is <span class="handwritten">Speaky Nook?</span></h2>
+            <p class="section-subtitle">More than just a language class, we are a community.</p>
+            
+            <div class="about">
+                <div class="about-content">
+                    <div class="about-text" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                        <h3 style="margin-bottom: 16px;">Our Purpose</h3>
+                        <p style="margin-bottom: 24px;">Speaky Nook is an English conversation club designed for those who want to practice speaking in a relaxed, friendly environment. We focus on communication, confidence, and community rather than grammar perfection.</p>
+                        <ul style="display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 0;">
+                            <li>Practice English in a relaxed environment</li>
+                            <li>Meet people with similar interests</li>
+                            <li>Discuss books, culture, movies, and everyday topics</li>
+                            <li>Learn through conversation and shared experiences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Monthly Agenda Section -->
+        <section id="agenda" class="container">
+            <h2 class="section-title">Monthly <span class="handwritten">Agenda</span></h2>
+            <p class="section-subtitle">Check out our upcoming meetups and join the conversation.</p>
+            
+            <div class="agenda-grid">
+                <div class="event-card in-person">
+                    <span class="event-tag tag-in-person">In Person</span>
+                    <div class="event-date">Jun 20 • 14:30</div>
+                    <h3 class="event-title">To get to know each other!</h3>
+                    <p class="event-desc">Join us at <strong>Deriva Café</strong> (Av. Irmãos Pereira, 791 - Centro, Campo Mourão - PR) for a casual meeting to introduce ourselves and practice speaking English in a cozy environment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join the Club Section -->
+        <section id="join" class="container">
+            <h2 class="section-title">Join the <span class="handwritten">Club</span></h2>
+            <p class="section-subtitle">Register for our upcoming activities. We'll add you to our community group!</p>
+            
+            <div class="form-container">
+                <form id="joinForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="What should we call you?">
+                    </div>
+                    <div class="form-group">
+                        <label for="instagram">Instagram Username</label>
+                        <input type="text" id="instagram" name="instagram" class="form-control" placeholder="@username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="level">English Level</label>
+                        <select id="level" name="level" class="form-control" required>
+                            <option value="">Select your level...</option>
+                            <option value="intermediate">Intermediate (B1-B2)</option>
+                            <option value="advanced">Advanced (C1-C2)</option>
+                            <option value="fluent">Fluent / Native</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="activities">Which activities are you interested in?</label>
+                        <select id="activities" name="activities" class="form-control" required>
+                            <option value="">Select an option...</option>
+                            <option value="all">All activities</option>
+                            <option value="in-person">Only In-Person meetups</option>
+                            <option value="online">Only Online meetups</option>
+                            <option value="book-club">Book Club only</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Sign Up</button>
+                    <div id="joinSuccessMessage" class="success-message">
+                        Thanks for joining! We will add you to our Instagram channel. If we don't contact you within 24 hours, please send us a direct message on Instagram.
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Book Club Section -->
+        <section id="book-club" class="container" style="text-align: center; padding-bottom: 40px;">
+            <h2 class="section-title">The <span class="handwritten">Book Club</span></h2>
+            <p class="section-subtitle" style="margin-bottom: 0;">Once a month we gather to discuss books we read.</p>
+        </section>
+
+        <!-- Community Moments -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section container">
+            <h2 class="section-title">Say <span class="handwritten">Hello!</span></h2>
+            <p style="margin: 20px auto 40px; max-width: 500px; color: var(--text-muted);">
+                Follow Speaky Nook on Instagram to stay updated about upcoming meetings, book club discussions, and community activities.
+            </p>
+            <a href="https://instagram.com/speakynook.club" target="_blank" class="instagram-link">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                @speakynook.club
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Speaky Nook</div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#agenda">Agenda</a>
+                    <a href="#join">Join</a>
+                    <a href="https://instagram.com/speakynook.club" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Speaky Nook English Conversation Club. Designed with ❤️ for language learners.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
